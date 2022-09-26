@@ -1,0 +1,28 @@
+{
+  "name": "@millihq/terraform-next-node-bridge",
+  "version": "1.0.0-canary.5",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milliHQ/terraform-next.js.git",
+    "directory": "packages/node-bridge"
+  },
+  "main": "./dist/bridge.js",
+  "types": "./dist/bridge.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.102",
+    "jest": "*",
+    "ts-jest": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1209.0"
+  }
+}

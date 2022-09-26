@@ -1,0 +1,11 @@
+node_modules
+.DS_STORE
+*.log
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+
+# IntelliJ IDEA
+/.idea/
