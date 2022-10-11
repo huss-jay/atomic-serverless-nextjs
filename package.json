@@ -1,5 +1,6 @@
 {
   "name": "@jayhuss/atomic-serverless-nextjs",
+  "description": "Deploy your serverless NextJS applications using AWS serverless technologies",
   "repository": {
     "type": "git",
     "url": "https://github.com/huss-jay/atomic-serverless-nextjs.git"
@@ -78,7 +79,12 @@
     "@aws-cdk/aws-apigatewayv2-integrations-alpha": "2.4.0-alpha.0"
   },
   "keywords": [
-    "cdk"
+    "cdk",
+    "nextjs",
+    "nextjs hosting",
+    "nextjs-hosting",
+    "serverless",
+    "serverless nextjs"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",

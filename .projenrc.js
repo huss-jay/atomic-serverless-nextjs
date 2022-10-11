@@ -9,6 +9,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   majorVersion: '0.0.0-alpha',
   defaultReleaseBranch: 'main',
   name: '@jayhuss/atomic-serverless-nextjs',
+  description:
+    'Deploy your serverless NextJS applications using AWS serverless technologies',
   npmAccess: NpmAccess.PUBLIC,
   repositoryUrl: 'https://github.com/huss-jay/atomic-serverless-nextjs.git',
   packageManager: NodePackageManager.NPM,
@@ -25,6 +27,14 @@ const project = new awscdk.AwsCdkConstructLibrary({
     'ncc-zip',
   ] /* Build dependencies for this module. */,
   // packageName: undefined,  /* The "name" in package.json. */
+  keywords: [
+    'nextjs',
+    'nextjs-hosting',
+    'cdk',
+    'serverless',
+    'serverless nextjs',
+    'nextjs hosting',
+  ],
 });
 
 project.npmignore.include('dist.zip');
